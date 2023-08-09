@@ -63,6 +63,10 @@ app.get('/contact', (req, res) => {
     res.render('contact');
 })
 
+app.get('/pricing', (req, res) => {
+    res.render('pricing');
+})
+
 //404 Error Route
 app.all('*', (req, res, next) => {
     next(new ExpressError('Page Not Found', 404))

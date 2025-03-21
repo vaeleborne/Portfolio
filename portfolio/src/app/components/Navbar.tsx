@@ -33,11 +33,6 @@ const Navbar: React.FC = () => {
                   About
                 </Link>
               </li>
-              <li id="nav-experience" className="nav-item">
-                <Link href="/experience" className="nav-link">
-                  Work Experience
-                </Link>
-              </li>
               <li id="nav-work-projects" className="nav-item">
                 <Link href="/projects" className="nav-link">
                   Projects

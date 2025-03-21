@@ -1,0 +1,137 @@
+{
+  "web": [
+    {
+      "title": "Basic Package: Starter Site",
+      "blurb": "Get your digital presence up and running with my Starter Site package. Perfect for small businesses and individuals looking for a professional website without breaking the bank. You'll enjoy a beautifully designed, responsive website that covers all the essentials.",
+      "features": [
+        "4-5 Pages",
+        "Responsive Design",
+        "Basic SEO",
+        "Contact Form Integration"
+      ],
+      "price": "$500",
+      "emailSubject": "Interested in Basic Website Package"
+    },
+    {
+      "title": "Standard Package: Business Site",
+      "blurb": "Elevate your online presence with my Business Website package. Tailored for small to medium-sized businesses, this package offers a comprehensive solution to showcase your offerings, engage your audience, and establish credibility in the digital space.",
+      "features": [
+        "Suitable for small to medium-sized businesses",
+        "6-10 pages (Home, About, Services, Portfolio, Testimonials, Blog, Contact, etc.)",
+        "Responsive design with attention to user experience",
+        "Custom domain setup and email integration",
+        "Advanced SEO optimization",
+        "Social media integration",
+        "Basic content management system (CMS)",
+        "1 year of free upkeep and support"
+      ],
+      "price": "$1000",
+      "emailSubject": "Interested in Standard Website Package"
+    },
+    {
+      "title": "Premium Package: E-Commerce Site",
+      "blurb": "Ready to take your business to the next level? My E-Commerce Site package is designed for businesses looking to sell products online. This package includes all the features you need to create a seamless shopping experience for your customers and boost your online sales.",
+      "features": [
+        "Designed for businesses looking to sell products online",
+        "10+ pages (Home, About, Products/Services, Blog, Contact, etc.)",
+        "E-commerce functionality with product listings, cart, and checkout",
+        "Payment gateway integration (Paypal, Stripe, etc)",
+        "Inventory Management",
+        "Advanced SEO and conversion optimization",
+        "Content management system with product management capabilities",
+        "1 year of free upkeep and support"
+      ],
+      "price": "$1800+",
+      "emailSubject": "Interested in Premium Website Package"
+    },
+    {
+      "title": "Add-Ons (Flat Rate)",
+      "blurb": "Enhance your chosen package with these add-ons to tailor your website exactly to your needs. Mix and match to create a unique online presence that reflects your brand and engages your audience.",
+      "features": [
+        "**Additional Web Pages ($50/Page):** Extend your website's reach with extra pages tailored to your content. Perfect for expanding your offerings, showcasing projects, or sharing valuable information.",
+        "**Blog Setup ($150):** Establish yourself as an industry authority with a dedicated blog section. Share insights, updates, and valuable content to engage your visitors and improve your SEO.",
+        "**Advanced SEO Audit And Implementation ($200):** Boost your website's visibility with an in-depth SEO analysis and optimization. Reach more potential clients and improve your search engine rankings.",
+        "**Additional Year Of Upkeep And Support ($100-250/Year):** Extend the peace of mind that comes with my upkeep and support services for an additional year. I'm here to ensure your website stays updated and functional."
+      ],
+      "price": "Bundled Discounts Available",
+      "emailSubject": "Regarding Website Package Addons"
+    }
+  ],
+  "app": [
+    {
+      "title": "Basic Package: Simple Mobile App",
+      "blurb": "Introducing my Simple Mobile App package, perfect for startups and individuals looking to make their mark in the app world. With a focus on essential features, you'll have a user-friendly app that delivers your message and engages your audience.",
+      "features": [
+        "Ideal for startups and individuals looking for a basic app presence",
+        "Single-platform development (iOS or Android)",
+        "Up to 5 screens",
+        "Basic UI/UX design",
+        "App functionality: Contact information, simple forms, basic features",
+        "App store submission assistance",
+        "1 year of free upkeep and support"
+      ],
+      "price": "$800-1000",
+      "emailSubject": "Interested in Basic App Package"
+    },
+    {
+      "title": "Standard Package: Multi-Platform App",
+      "blurb": "Elevate your app presence with my Multi-Platform App package, designed for businesses that want to reach audiences on both iOS and Android. This package offers enhanced functionality, a polished user experience, and the opportunity to connect with a broader user base.",
+      "features": [
+        "Suitable for businesses seeking a presence on both iOS and Android platforms",
+        "Up to 10 screens",
+        "Enhanced UI/UX design",
+        "App functionality: User registration/login, basic database integration, interactive elements",
+        "Push notification integration",
+        "App store submission assistance",
+        "1 year of free upkeep and support"
+      ],
+      "price": "$800-1000",
+      "emailSubject": "Interested in Standard App Package"
+    },
+    {
+      "title": "Premium Package: Enhanced App Experience",
+      "blurb": "Experience the epitome of app excellence with my Enhanced App Experience package. Crafted for businesses seeking a standout app, this package combines advanced features, custom design, and cutting-edge technology to deliver an app that's both powerful and captivating.",
+      "features": [
+        "Designed for businesses requiring a more sophisticated app experience",
+        "Up to 20 screens",
+        "Custom UI/UX design with attention to user flows",
+        "App functionality: User authentication, in-app purchases, advanced database integration, API integration",
+        "Advanced features: Maps integration, social media sharing, multimedia content",
+        "Push notification integration",
+        "App store submission assistance",
+        "1 year of free upkeep and support"
+      ],
+      "price": "$2500-3000",
+      "emailSubject": "Interested in Premium App Package"
+    },
+    {
+      "title": "Add-Ons (Flat Rate)",
+      "blurb": "Enhance your chosen app package with these valuable add-ons. Tailor your app to meet your specific needs and create a truly remarkable mobile experience.",
+      "features": [
+        "**Additional Screens ($100/Screen):** Extend your app's functionalitywith extra screens. Perfect for adding more features, showcasing content, or enhancing user interactions.",
+        "**Custom Graphics And Branding ($200):** Ensure your app's visual identity aligns with your brand. Custom graphics and branding elements create a consistent and memorable user experience.",
+        "**Backend Development And API Integration ($300-500):** Connect your app to the backend for seamless data management and integration with external services. Unlock advanced features and functionalities.",
+        "**In-App Purchases Setup ($150):** Monetize your app by offering in-app purchases. This add-on enables you to generate revenue while providing value to your users.",
+        "**Push Notification Service Integration ($100):** Keep your users engaged with timely notifications. This integration lets you reach your audience even when they're not actively using your app.",
+        "**Additional Year Of Upkeep And Support ($200-400/Year):** Extend the assurance of my upkeep and support services for another year. I'm committed to keeping your app up-to-date and performing at its best."
+      ],
+      "price": "Bundled Discounts Available",
+      "emailSubject": "Regarding App Package Addons"
+    }
+  ],
+  "other": [
+    {
+      "title": "Hourly Rate: Game Dev / Custom Projects",
+      "blurb": "Custom programming for game dev, terminal applications, windows programs, and more.",
+      "features": [
+        "Design consultations",
+        "Code reviews",
+        "Prototyping help",
+        "Tool Creation",
+        "Custom Libraries"
+      ],
+      "price": "$40/hour",
+      "emailSubject": "Game Dev / Custom Project Inquiry"
+    }
+  ]
+}

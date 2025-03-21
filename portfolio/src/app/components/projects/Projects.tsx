@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
         <h4 className="text-color-bright mb-4">Some Of My Hobby Projects!</h4>
 
         {/*Setting up page grid, 2 'cards' per row if size is md or greater, 1 otherwise*/}
-        <div className="row row-cols-1 row-cols-md-2 g-4">
+        <div className="row row-cols-1 row-cols-lg-2 g-4">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}

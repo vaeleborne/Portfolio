@@ -1,0 +1,71 @@
+[
+  {
+    "title": "Flappy Clone",
+    "description": "A functional clone of Flappy Bird implemented using **C++** and **SFML 2.6**. I started on this project to showcase a few different skills. Beyond just the programming languages I wanted to utilize a few different common **Software Design Pattersns** Uses **singletons, an observer pattern, a state machine, etc.**",
+    "technologies": ["C++", "SFML", "VS Code", "Software Design Patterns"],
+    "image": "/imgs/FlappyClone.png",
+    "github": "https://github.com/vaeleborne/FlappyClone"
+  },
+  {
+    "title": "Dungeon Delver",
+    "description": "This is my most current project. I am working on creating an in depth turn-based terminal based RPG. I am utilizing **C++ 20** as the primary language. A primary focus on this project is a self imposed **AGILE** development. I am using **Google Test** for my testing. I am also utilizing numerous **Software Design Patterns** to make higher quality software here. I am also using the **JSON For Modern C++** library to utilize json files for data saving and loading.",
+    "technologies": [
+      "C++",
+      "Smart Pointers",
+      "AGILE",
+      "Software Design Patterns",
+      "JSON",
+      "Visual Studio"
+    ],
+    "image": "/imgs/DungeonDelver.png",
+    "github": "https://github.com/vaeleborne/DungeonDelver"
+  },
+  {
+    "title": "Formithlum RPG",
+    "description": "A WIP turn based RPG using RPG Maker as a base for assets. I am implementing lots of custom **Ruby** scripts for a variety of purposes. Such as: Day and Night Cycle, Custom Crafting, Fishing, Camping, Mining, etc. The story is based on one that I am actively writing but has been in my mind since 7th grade. I am also slowly adding custom pixel art to use and give the project more of my flair",
+    "technologies": ["Ruby", "Piskel", "VS Code", "RPG MAKER VX ACE"],
+    "image": "/imgs/formithlum.png",
+    "github": "https://github.com/vaeleborne/Formithlum"
+  },
+  {
+    "title": "4-Bit Counter Circuit in Logisim",
+    "description": "I set out to make a fun little 4 bit counter that utilizes 2 7-Segment displays. Using **Logisim** to design the circuit, I started with some base rules for myself. I am to only use 2-Input gates rather than the more practical 3, 4, or 5 input gates. I also want to have 4 Led's that represent the 4-Bit Binary number. I utilized **JK Flip Flops** for delayed clock speeds to achieve this result. The output of each flipflop corresponds to the opposite value of it's labeled position. Ie, when flipflop one (2^0)' is 1, the value for the binary number at that bit is 0.",
+    "technologies": ["Logisim", "Truth Tables", "Logic Gates", "Circuitry"],
+    "image": "/imgs/four_bit_counter.png",
+    "github": "https://github.com/vaeleborne/Four_Bit_7_Segment_Counter_Circuit"
+  },
+  {
+    "title": "C Linked List Basic String Type",
+    "description": "To practice using **Linked Lists and C** I started working on this program. It defines a Str type that has basic functionality. functionality includes, creating, appending, deleting, inserting, and printing. Both the deletion and insertion functions also have a recursive version. This project also involved proper use of **Memory Allocation and Deallocation.**",
+    "technologies": ["C", "Code Blocks", "Linked Lists", "Memory Management"],
+    "image": "/imgs/linked_list_string_example.png",
+    "github": "https://github.com/vaeleborne/Linked_List_Str"
+  },
+  {
+    "title": "Brick Break Clone",
+    "description": "A clone of the classic game, I wanted to make my version using SFML! The project highlights gamestates, scorekeeping, player input, etc. I was able to utilize **SFML for graphics and audio**. I also utilized the graphics library to make simple physics for collisions.",
+    "technologies": ["C++", "Visual Studio", "SFML 2.5", "OOP"],
+    "image": "/imgs/BrickBreakGame.png",
+    "github": "https://github.com/vaeleborne/BrickBreaker"
+  },
+  {
+    "title": "C++ Tutorials",
+    "description": "Here I have the first handful of projects I am slowly but surely putting together (it's in my backlog currently while focusing on other projects) for a tutorial series! I have the goal of making it heavily project based with several prompts for side projects to get practice with what was covered so far. I have found when I learn online, many tutorials do not offer that many working projects. Most have small segments followed by one or two LARGE projects. My goal is to leave the learner with their **new skills** and many small to medium projects that set them up to complete one or two large ones on their own or with me. Starting from simple **Command Line Projects** by the end of the series we will be making **2D SFML Games** and touch on learning **OpenGL** for 3D applications",
+    "technologies": [
+      "C++",
+      "Visual Studio",
+      "AGILE",
+      "OOP",
+      "Software Design Patterns"
+    ],
+    "image": "/imgs/tutorials.png",
+    "github": "https://github.com/vaeleborn/C_Plus_Plus_Tutorials"
+  },
+  {
+    "title": "Season Getter",
+    "description": "A **python** project designed for a user to type in a month, then the day to see what season it falls in. As is, the program assumes we are looking for the season in the northern hemisphere, future update may get a third input to correct this. Purpose was to practice python and look for an efficient method of finding which season a date falls on.",
+    "technologies": ["Python", "Pycharm", "Problem Solving"],
+    "image": "/imgs/season_getter.png",
+    "github": "https://github.com/vaeleborne/Python-Season-Getter"
+  }
+]

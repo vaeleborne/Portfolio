@@ -1,4 +1,3 @@
-import { describe } from "node:test";
 import "../../../styles/app.css";
 import About from "../components/about/About";
 

@@ -1,4 +1,3 @@
-import { describe } from "node:test";
 import "../../../styles/app.css";
 import pricingData from "../data/pricing.json";
 import PricingSection from "../components/pricing/Pricing";

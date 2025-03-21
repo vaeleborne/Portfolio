@@ -1,6 +1,7 @@
 // components/ProjectCard.tsx
 "use client";
 
+import Image from "next/image";
 import React from "react";
 import ReactMarkdown from "react-markdown";
 
@@ -22,7 +23,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   return (
     <div className="col">
       <div className="card border border-3 h-100 border-info custom-color px-3 py-3">
-        <img src={image} className="card-img-top" alt={title} />
+        <Image
+          src={image}
+          alt={title}
+          width={800}
+          height={600}
+          className="card-img-top"
+          style={{ width: "100%", height: "auto" }}
+        />
+
         <div className="card-body">
           <h5 className="card-title text-color-bright">{title}</h5>
           <p className="card-text">

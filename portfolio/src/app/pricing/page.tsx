@@ -3,12 +3,6 @@ import "../../../styles/app.css";
 import pricingData from "../data/pricing.json";
 import PricingSection from "../components/pricing/Pricing";
 
-export const metadata = {
-  title: "Pricing - Dylan Morgan",
-  description:
-    "Explore affordable, quality package options for websites, apps, and more.",
-};
-
 export default function PricingPage() {
   return (
     <div className="container mt-5 pt-5">

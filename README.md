@@ -55,15 +55,17 @@ npm run dev
 
 Then open http://localhost:3000 in your browser.
 
-✉️ Contact
+## ✉️ Contact
+
 This portfolio is open source, but the content is personal.
 Have a cool project or opportunity? Let’s talk!
 
-📫 Email: dmorgan98101+contactme@gmail.com
+## 📫 Email: 
+dmorgan98101+contactme@gmail.com
 
-🔖 License
+## 🔖 License
 This portfolio is for personal/professional use and is not meant to be forked as a boilerplate. Please use it as inspiration, not a template.
 
-🙌 Thanks for visiting!
+## 🙌 Thanks for visiting!
 Made with 💻, ☕, and a passion for problem-solving.
 

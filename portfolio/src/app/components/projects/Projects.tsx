@@ -7,7 +7,7 @@ import projects from "@/app/data/projects.json";
 
 const Projects: React.FC = () => {
   return (
-    <div className="row">
+    <div className="row mx-3 mx-md-0">
       <div className="col">
         {/*Page Heading*/}
         <h4 className="text-color-bright mb-4">Some Of My Hobby Projects!</h4>

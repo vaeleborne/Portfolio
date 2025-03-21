@@ -5,7 +5,7 @@ import React from "react";
 
 const Contact: React.FC = () => {
   return (
-    <div className="row">
+    <div className="row mx-3 mx-md-0">
       <div className="col-md-9 offset-md-1">
         <h6 className="text-color-bright">Have a cool project idea?</h6>
         <h1>

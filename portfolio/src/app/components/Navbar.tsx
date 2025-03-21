@@ -1,8 +1,35 @@
+"use client";
 import Link from "next/link";
-
-import React from "react";
+import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import Collapse from "bootstrap/js/dist/collapse";
 
 const Navbar: React.FC = () => {
+  const pathname = usePathname();
+  const [hasMounted, setHasMounted] = useState(false);
+
+  // Ensure we're on the client before running DOM code
+  useEffect(() => {
+    setHasMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!hasMounted || typeof window === "undefined") return;
+
+    const collapseEl = document.getElementById("primaryNavbar");
+    if (!collapseEl) return;
+
+    if (collapseEl.classList.contains("show")) {
+      const bootstrap = (window as any).bootstrap;
+      if (bootstrap?.Collapse) {
+        const instance =
+          bootstrap.Collapse.getInstance(collapseEl) ||
+          new bootstrap.Collapse(collapseEl, { toggle: false });
+        instance.hide();
+      }
+    }
+  }, [pathname, hasMounted]);
+
   return (
     <div className="mb-5">
       <nav className="navbar navbar-dark navbar-expand-md py-3 fixed-top">

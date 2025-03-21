@@ -16,7 +16,7 @@ const About: React.FC = () => {
           About Me
           <hr />
         </h4>
-        <div className="row">
+        <div className="row mx-3 mx-md-0">
           <AboutHeader />
           <GrowingPassion />
           <AboutImageBreak />

@@ -20,7 +20,7 @@ const PricingSection: React.FC<SectionProps> = ({ title, packages, id }) => {
   };
 
   return (
-    <div className="mb-5">
+    <div className="mb-5 mx-3 mx-md-0">
       <div className="d-flex justify-content-between align-items-center">
         <h5 className="mb-0">{title}</h5>
         <button

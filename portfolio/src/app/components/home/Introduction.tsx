@@ -7,7 +7,7 @@ import SkillHighlights from "./SkillHighlights";
 const Introduction: React.FC = () => {
   return (
     <div className="container p-0">
-      <div className="row">
+      <div className="row  mx-3 mx-md-0">
         <div className="col-md-8 offset-md-2">
           <h6 className="text-color-bright">Hello, my name is</h6>
           <h1>

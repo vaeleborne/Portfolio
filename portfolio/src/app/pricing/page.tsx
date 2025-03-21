@@ -14,7 +14,7 @@ export default function PricingPage() {
       <h4 className="text-color-bright mb-4">
         Explore My Essential Service Packages!
       </h4>
-      <p>
+      <p>{"
         Welcome to my pricing page! While I've put together these package
         options as general guidelines, I want you to know that I'm always here
         to work closely with you on a case-by-case basis. These packages
@@ -25,7 +25,7 @@ export default function PricingPage() {
         within your budget. My priority is to deliver not just a product, but a
         remarkable experience. My goal is to create something of quality that
         brings pride and happiness to everyone involved. Thank you for
-        considering me as your partner in this journey!
+        considering me as your partner in this journey!"}
       </p>
 
       <PricingSection

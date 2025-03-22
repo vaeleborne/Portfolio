@@ -6,10 +6,10 @@ import React from "react";
 const AboutHeader: React.FC = () => {
   return (
     <>
-      <div className="col-lg-2">
+      <div className="col-lg-2 px-0">
         <p className="text-color-bright">Sic Parvis Magna:</p>
       </div>
-      <div className="col">
+      <div className="col px-0">
         <h6 className="text-color-bright">My Start</h6>
         <p>
           Hello! My name is <strong className="text-color-bright">Dylan</strong>{" "}

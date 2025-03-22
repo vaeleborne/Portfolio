@@ -7,7 +7,7 @@ const Reflection: React.FC = () => {
   return (
     <>
       <div className="row">
-        <div className="col offset-lg-2 pr-0">
+        <div className="col offset-lg-2 px-0">
           <h6 className="text-color-bright">Reflection</h6>
           <p>
             My favorite part of my journey's beginning was, and still is my

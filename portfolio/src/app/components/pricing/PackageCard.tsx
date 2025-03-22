@@ -24,7 +24,7 @@ const PackageCard: React.FC<PackageProps> = ({
   )}`;
   const markdown = `- ${features.join("\n- ")}\n- **Price:** ${price}`;
   return (
-    <div className="col">
+    <div className="col pl-0 pr-4">
       <div className="card border border-3 h-100 border-info custom-color px-2 py-2">
         <div className="card-body">
           <h5 className="card-title text-color-bright">{title}</h5>

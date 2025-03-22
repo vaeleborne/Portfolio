@@ -5,11 +5,11 @@ import PricingSection from "../components/pricing/Pricing";
 
 export default function PricingPage() {
   return (
-    <div className="container mt-5 pt-5">
-      <h4 className="text-color-bright mb-4">
+    <div className="container mt-5 pt-5 ">
+      <h4 className="text-color-bright mb-4 mx-3 mx-md-0">
         Explore My Essential Service Packages!
       </h4>
-      <p>
+      <p className="mx-3  mx-md-0 mb-5">
         Welcome to my pricing page! While I've put together these package
         options as general guidelines, I want you to know that I'm always here
         to work closely with you on a case-by-case basis. These packages

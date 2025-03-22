@@ -7,7 +7,7 @@ const CollegeYears: React.FC = () => {
   return (
     <>
       <div className="row">
-        <div className="col offset-lg-2 pr-0">
+        <div className="col offset-lg-2 px-0">
           <h6 className="text-color-bright">The College Years</h6>
           <p>
             Now if we fast forward to College I began a dual major in{" "}

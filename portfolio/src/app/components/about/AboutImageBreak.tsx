@@ -8,7 +8,7 @@ const AboutImageBreak: React.FC = () => {
   return (
     <>
       <div className="row">
-        <div className="col offset-lg-2 pr-0">
+        <div className="col offset-lg-2 px-0">
           <Image
             src="/imgs/snake.png"
             alt="First slide"

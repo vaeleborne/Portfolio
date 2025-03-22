@@ -18,6 +18,7 @@
 
 .card.custom-color {
   background-color: var(--secondary);
+  width: 98%;
 }
 
 .btn-outline-info.highlight-btn {

@@ -39,7 +39,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased d-flex flex-column vh-100`}
       >
-        <main className="container mt-5">
+        <main className="container mt-5 px-0">
           <Navbar />
           {children}
         </main>

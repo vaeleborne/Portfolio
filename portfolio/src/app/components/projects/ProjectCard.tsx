@@ -21,7 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   github,
 }) => {
   return (
-    <div className="col">
+    <div className="col mx-0 mr-3">
       <div className="card border border-3 h-100 border-info custom-color px-3 py-3">
         <Image
           src={image}

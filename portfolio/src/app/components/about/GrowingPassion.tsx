@@ -7,7 +7,7 @@ const GrowingPassion: React.FC = () => {
   return (
     <>
       <div className="row">
-        <div className="col offset-lg-2 pr-0">
+        <div className="col offset-lg-2 px-0">
           <h6 className="text-color-bright">Adding Fuel To My Passion</h6>
           <p>
             That was the start of one of—if not my largest—passion in life:{" "}

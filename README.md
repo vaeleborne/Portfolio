@@ -25,7 +25,7 @@ Welcome to the source code for my personal developer portfolio! This site showca
 
 /data → JSON files for projects and pricing
 
-/public → Static assets (images, favicon, etc.)
+/public → Static assets
 /imgs → Public images used in the project 
 /styles → Global styles and custom CSS
 

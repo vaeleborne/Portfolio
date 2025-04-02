@@ -1,14 +1,14 @@
 [
   {
-    "title": "Flappy Clone",
-    "description": "A functional clone of Flappy Bird implemented using **C++** and **SFML 2.6**. I started on this project to showcase a few different skills. Beyond just the programming languages I wanted to utilize a few different common **Software Design Pattersns** Uses **singletons, an observer pattern, a state machine, etc.**",
-    "technologies": ["C++", "SFML", "VS Code", "Software Design Patterns"],
-    "image": "/imgs/FlappyClone.png",
-    "github": "https://github.com/vaeleborne/FlappyClone"
+    "title": "Modern C++ Chess",
+    "description": "This is one of two of my most current projects. I set out with a desire to practice **AGILE** methodology along with **MSTEST** for **C++**. I wanted to work on an extendible game that could utilize numerous design patterns and fit iterative development well. Chess was what came to mind. The MVP will be a two player game. Eventually there will be options to play against an easy AI, then a medium difficulty, then a hard. Each implementing different algorithms for how they will play. I also wanted to explore some of the specific features added in C++20 so I have set that as the standard.",
+    "technologies": ["C++ 20", "DevOps", "AGILE", "Software Design Patterns", "Visual Studio"],
+    "image": "/imgs/Chess.png",
+    "github": "https://github.com/vaeleborne/Chess"
   },
   {
     "title": "Dungeon Delver",
-    "description": "This is my most current project. I am working on creating an in depth turn-based terminal based RPG. I am utilizing **C++ 20** as the primary language. A primary focus on this project is a self imposed **AGILE** development. I am using **Google Test** for my testing. I am also utilizing numerous **Software Design Patterns** to make higher quality software here. I am also using the **JSON For Modern C++** library to utilize json files for data saving and loading.",
+    "description": "This is the other of my two most current projects. I am working on creating an in depth turn-based terminal based RPG. I am utilizing **C++ 20** as the primary language. A primary focus on this project is a self imposed **AGILE** development. I am using **Google Test** for my testing. I am also utilizing numerous **Software Design Patterns** to make higher quality software here. I am also using the **JSON For Modern C++** library to utilize json files for data saving and loading.",
     "technologies": [
       "C++",
       "Smart Pointers",
@@ -21,18 +21,18 @@
     "github": "https://github.com/vaeleborne/DungeonDelver"
   },
   {
+    "title": "Flappy Clone",
+    "description": "A functional clone of Flappy Bird implemented using **C++** and **SFML 2.6**. I started on this project to showcase a few different skills. Beyond just the programming languages I wanted to utilize a few different common **Software Design Pattersns** Uses **singletons, an observer pattern, a state machine, etc.**",
+    "technologies": ["C++", "SFML", "VS Code", "Software Design Patterns"],
+    "image": "/imgs/FlappyClone.png",
+    "github": "https://github.com/vaeleborne/FlappyClone"
+  },
+  {
     "title": "Formithlum RPG",
     "description": "A WIP turn based RPG using RPG Maker as a base for assets. I am implementing lots of custom **Ruby** scripts for a variety of purposes. Such as: Day and Night Cycle, Custom Crafting, Fishing, Camping, Mining, etc. The story is based on one that I am actively writing but has been in my mind since 7th grade. I am also slowly adding custom pixel art to use and give the project more of my flair",
     "technologies": ["Ruby", "Piskel", "VS Code", "RPG MAKER VX ACE"],
     "image": "/imgs/formithlum.png",
     "github": "https://github.com/vaeleborne/Formithlum"
-  },
-  {
-    "title": "4-Bit Counter Circuit in Logisim",
-    "description": "I set out to make a fun little 4 bit counter that utilizes 2 7-Segment displays. Using **Logisim** to design the circuit, I started with some base rules for myself. I am to only use 2-Input gates rather than the more practical 3, 4, or 5 input gates. I also want to have 4 Led's that represent the 4-Bit Binary number. I utilized **JK Flip Flops** for delayed clock speeds to achieve this result. The output of each flipflop corresponds to the opposite value of it's labeled position. Ie, when flipflop one (2^0)' is 1, the value for the binary number at that bit is 0.",
-    "technologies": ["Logisim", "Truth Tables", "Logic Gates", "Circuitry"],
-    "image": "/imgs/four_bit_counter.png",
-    "github": "https://github.com/vaeleborne/Four_Bit_7_Segment_Counter_Circuit"
   },
   {
     "title": "C Linked List Basic String Type",

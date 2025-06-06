@@ -1,5 +1,5 @@
 import Privacy from "../components/privacy/Privacy";
-import "../../styles/app.css";
+import "../../../styles/app.css";
 
 export const metadata = {
   title: "Privacy",

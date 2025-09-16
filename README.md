@@ -33,13 +33,13 @@ Welcome to the source code for my personal developer portfolio! This site showca
 
 ## Features
 
-- ✅ Dynamic Project Cards via JSON
-- ✅ Collapsible Pricing Sections (Web, App, Other)
-- ✅ SEO metadata per page (`metadata.ts`)
-- ✅ Image Optimization using `next/image`
-- ✅ Responsive Design (mobile-first)
-- ✅ Custom styling via Bootstrap utility classes and custom colors
-- ✅ Markdown support for rich descriptions
+- Dynamic Project Cards via JSON
+- Collapsible Pricing Sections (Web, App, Other)
+- SEO metadata per page (`metadata.ts`)
+- Image Optimization using `next/image`
+- Responsive Design (mobile-first)
+- Custom styling via Bootstrap utility classes and custom colors
+- Markdown support for rich descriptions
 
 ---
 

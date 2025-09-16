@@ -4,7 +4,7 @@ Welcome to the source code for my personal developer portfolio! This site showca
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Next.js 14+** – React Framework with App Router
 - **TypeScript** – Strict typing for maintainable code
@@ -15,7 +15,7 @@ Welcome to the source code for my personal developer portfolio! This site showca
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 /app -> 
 /about → About page /projects → Project cards from JSON 
@@ -31,7 +31,7 @@ Welcome to the source code for my personal developer portfolio! This site showca
 
 ---
 
-## ✨ Features
+## Features
 
 - ✅ Dynamic Project Cards via JSON
 - ✅ Collapsible Pricing Sections (Web, App, Other)
@@ -43,7 +43,7 @@ Welcome to the source code for my personal developer portfolio! This site showca
 
 ---
 
-## 🧪 Local Development
+## Local Development
 
 To run the site locally:
 
@@ -55,17 +55,15 @@ npm run dev
 
 Then open http://localhost:3000 in your browser.
 
-## ✉️ Contact
+## Contact
 
 This portfolio is open source, but the content is personal.
 Have a cool project or opportunity? Let’s talk!
 
-## 📫 Email: 
+## Email: 
 dmorgan98101+contactme@gmail.com
 
-## 🔖 License
+## License
 This portfolio is for personal/professional use and is not meant to be forked as a boilerplate. Please use it as inspiration, not a template.
 
-## 🙌 Thanks for visiting!
-Made with 💻, ☕, and a passion for problem-solving.
-
+## Thanks for visiting!

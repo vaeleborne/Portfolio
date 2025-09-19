@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
             className="btn btn-outline-info"
             target="_blank"
             rel="noopener noreferrer"
-            href="mailto:dmorgan98101+contactme@gmail.com?subject=Let’s%20work%20together!"
+            href="mailto:dylan_hawke+contactme@icloud.com?subject=Let’s%20work%20together!"
           >
             Reach Out!
           </a>

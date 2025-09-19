@@ -10,8 +10,8 @@ const GrowingPassion: React.FC = () => {
         <div className="col offset-lg-2 px-0">
           <h6 className="text-color-bright">Adding Fuel To My Passion</h6>
           <p>
-            That was the start of one of—if not my largest—passion in life:{" "}
-            <strong className="text-color-bright">Programming!</strong>
+            That was the start of one of, if not my largest, passion in life:{" "}
+            <strong className="text-color-bright">Programming! </strong>
             At that point I was making custom console-based applications to help
             with my homework. But I wanted to learn more, so I began exploring
             various graphics libraries.

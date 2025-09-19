@@ -11,7 +11,7 @@ const Introduction: React.FC = () => {
         <div className="col-md-8 offset-md-2">
           <h6 className="text-color-bright">Hello, my name is</h6>
           <h1>
-            <strong>Dylan Morgan</strong>
+            <strong>Dylan Hawke</strong>
           </h1>
           <h2 className="faded">
             I build various software applications, apps, games, and websites!

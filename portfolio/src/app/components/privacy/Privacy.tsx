@@ -60,8 +60,8 @@ const Privacy: React.FC = () => {
           be posted at:
         </p>
         <p>
-          <a href="https://dylanmorgan-dev.com/privacy">
-            https://dylanmorgan-dev.com/privacy
+          <a href="https://dylanhawke-dev.com/privacy">
+            https://dylanhawke-dev.com/privacy
           </a>
         </p>
       </section>
@@ -72,8 +72,8 @@ const Privacy: React.FC = () => {
           If you have any questions or concerns, please reach out to us at:
         </p>
         <ul>
-          <li>Email: <a href="mailto:dmorgan98101+privacy@gmail.com">dmorgan98101+privacy@gmail.com</a></li>
-          <li>Website: <a href="https://dylanmorgan-dev.com">dylanmorgan-dev.com</a></li>
+          <li>Email: <a href="mailto:dylan_hawke+privacy@icloud.com">dylan_hawke+privacy@icloud.com</a></li>
+          <li>Website: <a href="https://dylanhawke-dev.com">dylanhawke-dev.com</a></li>
         </ul>
       </section>
     </main>

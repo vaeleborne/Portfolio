@@ -2,7 +2,7 @@ import "../../../styles/app.css";
 import Projects from "../components/projects/Projects";
 
 export const metadata = {
-  title: "Projects - Dylan Morgan",
+  title: "Projects - Dylan Hawke",
   description:
     "A showcase of Dylan’s personal, academic, and game development projects.",
 };

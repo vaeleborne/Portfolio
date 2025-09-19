@@ -1,4 +1,4 @@
-# Dylan Morgan – Developer Portfolio
+# Dylan Hawke – Developer Portfolio
 
 Welcome to the source code for my personal developer portfolio! This site showcases my skills, projects, services, and background in software engineering and creative problem-solving. Built with modern technologies and optimized for performance and clarity.
 
@@ -61,7 +61,7 @@ This portfolio is open source, but the content is personal.
 Have a cool project or opportunity? Let’s talk!
 
 ## 📫 Email: 
-dmorgan98101+contactme@gmail.com
+dylan_hawke+contactme@icloud.com
 
 ## 🔖 License
 This portfolio is for personal/professional use and is not meant to be forked as a boilerplate. Please use it as inspiration, not a template.

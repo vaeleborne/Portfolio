@@ -19,7 +19,7 @@ const PackageCard: React.FC<PackageProps> = ({
   price,
   emailSubject,
 }) => {
-  const mailto = `mailto:dmorgan98101+app-dev@gmail.com?subject=${encodeURIComponent(
+  const mailto = `mailto:dylan_hawke+app-dev@icloud.com?subject=${encodeURIComponent(
     emailSubject
   )}`;
   const markdown = `- ${features.join("\n- ")}\n- **Price:** ${price}`;

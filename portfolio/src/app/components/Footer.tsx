@@ -46,7 +46,7 @@ const Foot: React.FC = () => {
               </a>
             </div>
             <div className="col-sm text-center pt-2 pt-md-1 ">
-              <p>Designed And Built By: Dylan Morgan</p>
+              <p>Designed And Built By: Dylan Hawke</p>
             </div>
           </div>
         </div>

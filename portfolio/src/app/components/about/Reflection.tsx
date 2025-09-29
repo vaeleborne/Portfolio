@@ -10,7 +10,7 @@ const Reflection: React.FC = () => {
         <div className="col px-0">
           <h5 className="text-color-bright">Reflection</h5>
           <p>
-            From the beginning of my journey to this very day, one thing has remained consistant:
+            From the beginning of my journey to this very day, one thing has remained consistent:
             my love of learning new technologies and deepening my expertise in the ones I use daily.
           </p>
 

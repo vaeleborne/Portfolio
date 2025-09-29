@@ -55,18 +55,18 @@
     "imageDir": "/projects/BrickBreak"
   },
   {
-    "title": "C++ Tutorials",
-    "description": "Here I have the first handful of projects I am slowly but surely putting together (it's in my backlog currently while focusing on other projects) for a tutorial series! I have the goal of making it heavily project based with several prompts for side projects to get practice with what was covered so far. I have found when I learn online, many tutorials do not offer that many working projects. Most have small segments followed by one or two LARGE projects. My goal is to leave the learner with their **new skills** and many small to medium projects that set them up to complete one or two large ones on their own or with me. Starting from simple **Command Line Projects** by the end of the series we will be making **2D SFML Games** and touch on learning **OpenGL** for 3D applications",
+    "title": "RCPY",
+    "description": "This project started from a desire to have a progress bar when using a terminal copy command. I had used 'cp' to backup a rather large directory which took a rather long time with no indication that it was still working. I had been learning **Rust** and decided to inhance my skills with a project. That is where rcpy came in, rcpy is a fast, Rust-based recursive copy tool that features a progress bar, multi-threaded performance, and an optional **--dry-run verbose simulation mode.**",
     "technologies": [
-      "C++",
-      "Visual Studio",
-      "AGILE",
-      "OOP",
-      "Software Design Patterns"
+      "Rust",
+      "VIM",
+      "Cargo",
+      "CLI Tools",
+      "Multi-Threading"
     ],
-    "image": "/imgs/tutorials.png",
-    "github": "https://github.com/vaeleborne/C_Plus_Plus_Tutorials",
-    "imageDir": "/projects/TutorialsC++"
+    "image":null,
+    "github": "https://github.com/vaeleborne/rcpy",
+    "imageDir": "/projects/RCPY"
   },
   {
     "title": "Season Getter",

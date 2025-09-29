@@ -19,7 +19,7 @@ const AboutHeader: React.FC = () => {
           when problem solving is involved.
         </p>
         <p>
-          My interst in programming began in the 8th grade. That summer, I set out to learn what is involved
+          My interest in programming began in the 8th grade. That summer, I set out to learn what is involved
           in making a game. In doing so I discovered C++ tutorials. This led me to spending countless nights 
           coding, often until 2am. I loved every second of it, even if I was exhausted in the morning before school.
         </p>

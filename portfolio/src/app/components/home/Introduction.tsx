@@ -28,15 +28,17 @@ const Introduction: React.FC = () => {
             This site itself is one of my projects! It's simple by design, but I love tailoring solutions to fit
             what's needed. Not every website needs a database, but if yours does, I have experience working with
             <span className="text-color-bright"> MongoDB, SQL, and Mongoose </span> 
-            <br /><br />
+          </p>
+            <br />
             Whether you need: 
             <br />
-            <ul>
+            <ul  className="faded mt-3">
               <li>A refreshed website with modern routing and clean UI</li>
               <li>An internal tool for inventory management</li>
               <li>Or a full design and build of a new site</li>
             </ul>
-            ...I can deliver professional, reliable solutions that meet your needs.
+            <p  className="faded mt-3">...I can deliver professional, reliable solutions that meet your needs.</p>
+            
 
             {/* In fact, this site was built by me! There was no real need to
             connect a database so sadly no{" "}
@@ -60,7 +62,7 @@ const Introduction: React.FC = () => {
             </span>
             . These are just some of the things I can do in the world of
             <span className="text-color-bright"> Web Development</span>. */}
-          </p>
+          
 
           {/*BEYOND WEB DEV*/}
           <h4 className="text-color-bright">
@@ -72,41 +74,40 @@ const Introduction: React.FC = () => {
             console-based applications, GUI applications, prototypes, games, and mobile apps.
             If you're building a new video game or want to collaborate on software ideas, I'd 
             love to hear from you!
-            <br /><br />
-            Explore the site to learn more:
             <br />
-            <ul>
+            <br />
+            Explore the site to learn more:
+            </p>
+            <ul  className="faded mt-3">
               <li><b className="text-color-bright">About: </b>My background and experience</li>
               <li><b className="text-color-bright">Projects: </b>Examples of work I have built or am working on</li>
               <li><b className="text-color-bright">Pricing: </b>Some baseline packages that I offer</li>
               <li><b className="text-color-bright">Contact: </b>Ways to get in touch with me</li>
             </ul>
-          </p>
+          
 
           {/*SKILLS*/}
           <h4 className="text-color-bright">
             Skills
           </h4>
-          <p className="faded">
-            <ul>
-              <li>
-                <b className="text-color-bright">Languages: </b>
-                C, C++, C#, Java, JavaScript, Rust
-              </li>
-              <li>
-                <b className="text-color-bright">Web & Frameworks: </b>
-                Node.js, Express.js, Next.js, React, Mongoose, MongoDB
-              </li>
-              <li>
-                <b className="text-color-bright">Game Development: </b>
-                Unity, Unreal, C++ w/ SFML, RPG Maker, GoDot
-              </li>
-              <li>
-                <b className="text-color-bright">Practices: </b>
-                Agile, DevOps, Design Patterns, UML
-              </li>
-            </ul>
-          </p>
+          <ul className="faded">
+            <li>
+              <b className="text-color-bright">Languages: </b>
+              C, C++, C#, Java, JavaScript, Rust
+            </li>
+            <li>
+              <b className="text-color-bright">Web & Frameworks: </b>
+              Node.js, Express.js, Next.js, React, Mongoose, MongoDB
+            </li>
+            <li>
+              <b className="text-color-bright">Game Development: </b>
+              Unity, Unreal, C++ w/ SFML, RPG Maker, GoDot
+            </li>
+            <li>
+              <b className="text-color-bright">Practices: </b>
+              Agile, DevOps, Design Patterns, UML
+            </li>
+          </ul>
         </div>
       </div>
     </div>

@@ -48,7 +48,6 @@ export const CarouselClient: React.FC<CarouselClientProps> = ({id, images, alt})
                             className="d-block w-100"
                             width={1200}
                             height={400}
-                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
                             priority={idx === 0}
                         />
                     </div>

@@ -6,6 +6,7 @@
   --primary-hover: #ffffff;
   --secondary-hover: #5eaca8;
   --secondary: #031e2e;
+  --letter-box: #02141f;
 }
 
 .row > * {
@@ -86,3 +87,21 @@ body {
   margin-left: 5px;
   text-decoration: none;
 }
+
+.carousel-item img {
+  height: 400px;
+  width: 100%;
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+ .carousel-item img {
+    object-fit: contain;
+    background-color: var(--letter-box);
+  }
+}
+
+
+
+

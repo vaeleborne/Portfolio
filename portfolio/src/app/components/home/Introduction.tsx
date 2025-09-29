@@ -14,11 +14,31 @@ const Introduction: React.FC = () => {
             <strong>Dylan Hawke</strong>
           </h1>
           <h2 className="faded">
-            I build various software applications, apps, games, and websites!
+            I build software, games, apps, and websites.
           </h2>
+          <br />
+
+          {/*INTRODUCTION*/}
+          <h4 className="text-color-bright">
+            Introduction
+          </h4>
 
           <p className="faded mt-3">
-            In fact, this site was built by me! There was no real need to
+            I'm a software engineer who enjoys creating everything from web applications to video games.
+            This site itself is one of my projects! It's simple by design, but I love tailoring solutions to fit
+            what's needed. Not every website needs a database, but if yours does, I have experience working with
+            <span className="text-color-bright"> MongoDB, SQL, and Mongoose </span> 
+            <br /><br />
+            Whether you need: 
+            <br />
+            <ul>
+              <li>A refreshed website with modern routing and clean UI</li>
+              <li>An internal tool for inventory management</li>
+              <li>Or a full design and build of a new site</li>
+            </ul>
+            ...I can deliver professional, reliable solutions that meet your needs.
+
+            {/* In fact, this site was built by me! There was no real need to
             connect a database so sadly no{" "}
             <span className="text-color-bright">MongoDB</span> or
             <span className="text-color-bright"> Mongoose</span> here. But not
@@ -39,31 +59,53 @@ const Introduction: React.FC = () => {
               Design Your Website From Start To Finish
             </span>
             . These are just some of the things I can do in the world of
-            <span className="text-color-bright"> Web Development</span>.
+            <span className="text-color-bright"> Web Development</span>. */}
           </p>
 
+          {/*BEYOND WEB DEV*/}
+          <h4 className="text-color-bright">
+            Beyond Web Development
+          </h4>
+
           <p className="faded">
-            Web Development not what you’re looking for? That’s okay! I also do
-            a
-            <span className="text-color-bright">
-              {" "}
-              Wide Variety Of Programming
-            </span>
-            . Are you looking for{" "}
-            <span className="text-color-bright">
-              Console Based Applications
-            </span>{" "}
-            for your business? Working on a{" "}
-            <span className="text-color-bright">Video Game?</span> I’d love to
-            hear about it and see how I could contribute! Have general questions
-            for me? Check out the Contact tab. Want to know my history? Peruse
-            the <span className="text-color-bright">About</span> section. Want
-            to see some of the projects I’ve done? Yup—I have that over on the{" "}
-            <span className="text-color-bright">Projects</span> tab. Wondering
-            what my general skills are? See the list below :)
+            Web development is only a part of what I do and am interested in. I also develop 
+            console-based applications, GUI applications, prototypes, games, and mobile apps.
+            If you're building a new video game or want to collaborate on software ideas, I'd 
+            love to hear from you!
+            <br /><br />
+            Explore the site to learn more:
             <br />
-            <br />
-            <SkillHighlights />
+            <ul>
+              <li><b className="text-color-bright">About: </b>My background and experience</li>
+              <li><b className="text-color-bright">Projects: </b>Examples of work I have built or am working on</li>
+              <li><b className="text-color-bright">Pricing: </b>Some baseline packages that I offer</li>
+              <li><b className="text-color-bright">Contact: </b>Ways to get in touch with me</li>
+            </ul>
+          </p>
+
+          {/*SKILLS*/}
+          <h4 className="text-color-bright">
+            Skills
+          </h4>
+          <p className="faded">
+            <ul>
+              <li>
+                <b className="text-color-bright">Languages: </b>
+                C, C++, C#, Java, JavaScript, Rust
+              </li>
+              <li>
+                <b className="text-color-bright">Web & Frameworks: </b>
+                Node.js, Express.js, Next.js, React, Mongoose, MongoDB
+              </li>
+              <li>
+                <b className="text-color-bright">Game Development: </b>
+                Unity, Unreal, C++ w/ SFML, RPG Maker, GoDot
+              </li>
+              <li>
+                <b className="text-color-bright">Practices: </b>
+                Agile, DevOps, Design Patterns, UML
+              </li>
+            </ul>
           </p>
         </div>
       </div>

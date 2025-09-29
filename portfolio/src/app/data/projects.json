@@ -1,11 +1,48 @@
 [
+    {
+    "title": "Shelf Of Games",
+    "description": "A published iOS app that lets users easily add and track their video game collection as well as check pricing easily on PriceCharting by creating a slug that goes to the game's page. Supports **wishlisting, exporting/sharing, and adding custom consoles and text shortcuts.** Developed on **macOS** using **XCode and Swift.** I created this project due to wanting a tool like it for personal use, along with wanting to learn more about iOS development and deployment!",
+    "technologies": ["Swift", "SwiftUI", "XCode", "MVC", "iOS"],
+    "imageDir": "/projects/ShelfOfGames",
+    "appStore": "https://apps.apple.com/us/app/shelf-of-games/id6746895480"
+  },
   {
     "title": "Chess++",
     "description": "This is one of two of my most current projects. I set out with a desire to practice **AGILE** methodology along with **MSTEST** for **C++**. I wanted to work on an extendible game that could utilize numerous design patterns and fit iterative development well. Chess was what came to mind. The MVP will be a two player game. Eventually there will be options to play against an easy AI, then a medium difficulty, then a hard. Each implementing different algorithms for how they will play. I also wanted to explore some of the specific features added in C++20 so I have set that as the standard.",
     "technologies": ["C++ 20", "DevOps", "AGILE", "Software Design Patterns", "Visual Studio"],
-    "image": "/imgs/Chess.png",
     "github": "https://github.com/vaeleborne/Chess",
-    "imageDir": "/projects/Chess++"
+    "imageDir": "/projects/Chess++",
+    "appStore": null
+  },
+  {
+    "title": "RCPY",
+    "description": "This project started from a desire to have a progress bar when using a terminal copy command. I had used 'cp' to backup a rather large directory which took a rather long time with no indication that it was still working. I had been learning **Rust** and decided to inhance my skills with a project. That is where rcpy came in, rcpy is a fast, Rust-based recursive copy tool that features a progress bar, multi-threaded performance, and an optional **--dry-run verbose simulation mode.**",
+    "technologies": [
+      "Rust",
+      "VIM",
+      "Cargo",
+      "CLI Tools",
+      "Multi-Threading"
+    ],
+    "github": "https://github.com/vaeleborne/rcpy",
+    "imageDir": "/projects/RCPY",
+    "appStore": null
+  },
+    {
+    "title": "Formithlum RPG",
+    "description": "A WIP turn based RPG using RPG Maker as a base for assets. I am implementing lots of custom **Ruby** scripts for a variety of purposes. Such as: Day and Night Cycle, Custom Crafting, Fishing, Camping, Mining, etc. The story is based on one that I am actively writing but has been in my mind since 7th grade. I am also slowly adding custom pixel art to use and give the project more of my flair",
+    "technologies": ["Ruby", "Piskel", "VS Code", "RPG MAKER VX ACE"],
+    "github": "https://github.com/vaeleborne/Formithlum",
+    "imageDir": "/projects/FormithlumRPG",
+    "appStore": null
+  },
+    {
+    "title": "Brick Break Clone",
+    "description": "A clone of the classic game, I wanted to make my version using SFML! The project highlights gamestates, scorekeeping, player input, etc. I was able to utilize **SFML for graphics and audio**. I also utilized the graphics library to make simple physics for collisions.",
+    "technologies": ["C++", "Visual Studio", "SFML 2.5", "OOP"],
+    "github": "https://github.com/vaeleborne/BrickBreaker",
+    "imageDir": "/projects/BrickBreak",
+    "appStore": null
   },
   {
     "title": "Dungeon Delver",
@@ -18,62 +55,24 @@
       "JSON",
       "Visual Studio"
     ],
-    "image": "/imgs/DungeonDelver.png",
     "github": "https://github.com/vaeleborne/DungeonDelver",
-    "imageDir": "/projects/DungeonDelver"
+    "imageDir": "/projects/DungeonDelver",
+    "appStore": null
   },
   {
     "title": "Flappy Clone",
     "description": "A functional clone of Flappy Bird implemented using **C++** and **SFML 2.6**. I started on this project to showcase a few different skills. Beyond just the programming languages I wanted to utilize a few different common **Software Design Pattersns** Uses **singletons, an observer pattern, a state machine, etc.**",
     "technologies": ["C++", "SFML", "VS Code", "Software Design Patterns"],
-    "image": "/imgs/FlappyClone.png",
     "github": "https://github.com/vaeleborne/FlappyClone",
-    "imageDir": "/projects/FlappyClone"
-  },
-  {
-    "title": "Formithlum RPG",
-    "description": "A WIP turn based RPG using RPG Maker as a base for assets. I am implementing lots of custom **Ruby** scripts for a variety of purposes. Such as: Day and Night Cycle, Custom Crafting, Fishing, Camping, Mining, etc. The story is based on one that I am actively writing but has been in my mind since 7th grade. I am also slowly adding custom pixel art to use and give the project more of my flair",
-    "technologies": ["Ruby", "Piskel", "VS Code", "RPG MAKER VX ACE"],
-    "image": "/imgs/formithlum.png",
-    "github": "https://github.com/vaeleborne/Formithlum",
-    "imageDir": "/projects/FormithlumRPG"
+    "imageDir": "/projects/FlappyClone",
+    "appStore": null
   },
   {
     "title": "C Linked List Basic String Type",
     "description": "To practice using **Linked Lists and C** I started working on this program. It defines a Str type that has basic functionality. functionality includes, creating, appending, deleting, inserting, and printing. Both the deletion and insertion functions also have a recursive version. This project also involved proper use of **Memory Allocation and Deallocation.**",
     "technologies": ["C", "Code Blocks", "Linked Lists", "Memory Management"],
-    "image": "/imgs/linked_list_string_example.png",
     "github": "https://github.com/vaeleborne/Linked_List_Str",
-    "imageDir": "/projects/LinkedListC"
-  },
-  {
-    "title": "Brick Break Clone",
-    "description": "A clone of the classic game, I wanted to make my version using SFML! The project highlights gamestates, scorekeeping, player input, etc. I was able to utilize **SFML for graphics and audio**. I also utilized the graphics library to make simple physics for collisions.",
-    "technologies": ["C++", "Visual Studio", "SFML 2.5", "OOP"],
-    "image": "/imgs/BrickBreakGame.png",
-    "github": "https://github.com/vaeleborne/BrickBreaker",
-    "imageDir": "/projects/BrickBreak"
-  },
-  {
-    "title": "RCPY",
-    "description": "This project started from a desire to have a progress bar when using a terminal copy command. I had used 'cp' to backup a rather large directory which took a rather long time with no indication that it was still working. I had been learning **Rust** and decided to inhance my skills with a project. That is where rcpy came in, rcpy is a fast, Rust-based recursive copy tool that features a progress bar, multi-threaded performance, and an optional **--dry-run verbose simulation mode.**",
-    "technologies": [
-      "Rust",
-      "VIM",
-      "Cargo",
-      "CLI Tools",
-      "Multi-Threading"
-    ],
-    "image":null,
-    "github": "https://github.com/vaeleborne/rcpy",
-    "imageDir": "/projects/RCPY"
-  },
-  {
-    "title": "Season Getter",
-    "description": "A **python** project designed for a user to type in a month, then the day to see what season it falls in. As is, the program assumes we are looking for the season in the northern hemisphere, future update may get a third input to correct this. Purpose was to practice python and look for an efficient method of finding which season a date falls on.",
-    "technologies": ["Python", "Pycharm", "Problem Solving"],
-    "image": "/imgs/season_getter.png",
-    "github": "https://github.com/vaeleborne/Python-Season-Getter",
-    "imageDir": "/projects/SeasonGetter"
+    "imageDir": "/projects/LinkedListC",
+    "appStore": null
   }
 ]

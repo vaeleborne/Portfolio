@@ -1,36 +1,44 @@
 // components/ProjectCard.tsx
-"use client";
+//TODO: REPLACE IMAGE WITH A CAROUSEL COMPONENT
 
-import Image from "next/image";
 import React from "react";
 import ReactMarkdown from "react-markdown";
+import ProjectImageCarousel from "./ProjectImageCarousel";
 
 interface ProjectCardProps {
   title: string;
   description: string;
   technologies: string[];
-  image: string;
+ /* image: string;*/
   github: string;
+  imageDir: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
   description,
   technologies,
-  image,
+  /*image,*/
   github,
+  imageDir
 }) => {
   return (
     <div className="col mx-0 mr-3">
       <div className="card border border-3 h-100 border-info custom-color px-3 py-3">
-        <Image
+
+        
+        {/* <Image
           src={image}
           alt={title}
           width={800}
           height={600}
           className="card-img-top"
           style={{ width: "100%", height: "auto" }}
-        />
+        /> */}
+
+        <div className="card-img-top">
+          <ProjectImageCarousel imageDir={imageDir} alt={title} />
+        </div>
 
         <div className="card-body">
           <h5 className="card-title text-color-bright">{title}</h5>

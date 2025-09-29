@@ -12,10 +12,10 @@ const About: React.FC = () => {
   return (
     <div className="row  mx-3 mx-md-0">
       <div className="col-md-9 offset-md-1">
-        <h4 className="highlight">
+        <h3 className="highlight">
           About Me
           <hr />
-        </h4>
+        </h3>
         <div className="row px-0 mx-0">
           <AboutHeader />
           <GrowingPassion />

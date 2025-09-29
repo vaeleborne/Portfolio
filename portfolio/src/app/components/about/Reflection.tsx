@@ -7,39 +7,20 @@ const Reflection: React.FC = () => {
   return (
     <>
       <div className="row">
-        <div className="col offset-lg-2 px-0">
-          <h6 className="text-color-bright">Reflection</h6>
+        <div className="col px-0">
+          <h5 className="text-color-bright">Reflection</h5>
           <p>
-            My favorite part of my journey's beginning was, and still is my
-            passion for learning new technologies and expanding my knowledge of
-            the ones I use all the time. I love getting the chance to work with
-            new technologies and working with ones I know well. In fact{" "}
-            <span className="text-color-bright"> this very site </span> is a
-            form of practice using the following technologies:
+            From the beginning of my journey to this very day, one thing has remained consistant:
+            my love of learning new technologies and deepening my expertise in the ones I use daily.
           </p>
-          {/*Using an inline list with highlights to accent languages used when making this site*/}
-          <div className="col ">
-            <ul className="list-inline">
-              <li className="list-inline-item">
-                <span className="text-color-bright">HTML5</span>
-              </li>
-              <li className="list-inline-item">
-                <span className="text-color-bright">CSS</span>
-              </li>
-              <li className="list-inline-item">
-                <span className="text-color-bright">JS</span>
-              </li>
-              <li className="list-inline-item">
-                <span className="text-color-bright">REACT</span>
-              </li>
-              <li className="list-inline-item">
-                <span className="text-color-bright">Next.js</span>
-              </li>
-              <li className="list-inline-item">
-                <span className="text-color-bright">Bootstrap</span>
-              </li>
-            </ul>
-          </div>
+
+          <p>
+            This portfolio itself is practice. Originally built as an express app, it is now converted 
+            to be using 
+            <span className="text-color-bright"> HTML5, CSS, TypeScript, React, Next.js, and Bootstrap. </span>
+            It is a reflection of my commitment to constant growth as a developer.
+          </p>
+
         </div>
       </div>
     </>

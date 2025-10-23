@@ -39,29 +39,6 @@ const Introduction: React.FC = () => {
             </ul>
             <p  className="faded mt-3">...I can deliver professional, reliable solutions that meet your needs.</p>
             
-
-            {/* In fact, this site was built by me! There was no real need to
-            connect a database so sadly no{" "}
-            <span className="text-color-bright">MongoDB</span> or
-            <span className="text-color-bright"> Mongoose</span> here. But not
-            every website needs this. If yours does however, rest assured I love
-            using databases. Maybe you want a better internal site for
-            <span className="text-color-bright">
-              {" "}
-              inventory lookup and management
-            </span>
-            ? Perhaps you just want to update an old website that is not
-            currently using
-            <span className="text-color-bright"> Routes</span>. Need someone to
-            just look into and
-            <span className="text-color-bright"> Clean the UI</span>? Or maybe
-            you're a new or existing business ready to branch out and
-            <span className="text-color-bright">
-              {" "}
-              Design Your Website From Start To Finish
-            </span>
-            . These are just some of the things I can do in the world of
-            <span className="text-color-bright"> Web Development</span>. */}
           
 
           {/*BEYOND WEB DEV*/}
@@ -90,24 +67,7 @@ const Introduction: React.FC = () => {
           <h4 className="text-color-bright">
             Skills
           </h4>
-          <ul className="faded">
-            <li>
-              <b className="text-color-bright">Languages: </b>
-              C, C++, C#, Java, JavaScript, Rust
-            </li>
-            <li>
-              <b className="text-color-bright">Web & Frameworks: </b>
-              Node.js, Express.js, Next.js, React, Mongoose, MongoDB
-            </li>
-            <li>
-              <b className="text-color-bright">Game Development: </b>
-              Unity, Unreal, C++ w/ SFML, RPG Maker, GoDot
-            </li>
-            <li>
-              <b className="text-color-bright">Practices: </b>
-              Agile, DevOps, Design Patterns, UML
-            </li>
-          </ul>
+          <SkillHighlights />
         </div>
       </div>
     </div>

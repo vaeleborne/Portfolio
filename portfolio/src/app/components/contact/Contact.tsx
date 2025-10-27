@@ -19,22 +19,9 @@ const Contact: React.FC = () => {
         </p>
 
         <p className="faded">
-          Click the button below to send me an email (it'll even prefill the subject line to save you the step).
-          I look forward to hearing from you!
+          Fill out the form below to send me an email!
         </p>
 
-
-        <div className="d-grid gap-2">
-          <a
-            className="btn btn-outline-info"
-            aria-label="contact button"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="mailto:dylan_hawke+contactme@icloud.com?subject=Let’s%20work%20together!"
-          >
-            Get In Touch
-          </a>
-        </div>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import Contact from "../components/contact/Contact";
+import ContactForm from "../components/contact/ContactForm";
 
 // app/contact/page.tsx
 export const metadata = {
@@ -7,5 +8,11 @@ export const metadata = {
 };
 
 export default function ContactPage() {
-  return <Contact />;
+ return (
+  <div>
+    <Contact />
+    <ContactForm />
+  </div>
+    
+ );
 }

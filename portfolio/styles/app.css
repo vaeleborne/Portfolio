@@ -13,6 +13,11 @@
   padding-right: 0;
 }
 
+.no-resize {
+  resize: none;
+  overflow: scroll;
+}
+
 .text-color-bright {
   color: var(--color-bright);
 }

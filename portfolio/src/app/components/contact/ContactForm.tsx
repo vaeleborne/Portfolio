@@ -23,21 +23,32 @@ export default function ContactForm() {
             <div className="col-md-9 offset-md-1">
                 <form onSubmit={onSubmit} className="vstack gap-3">
                     <div className="row">
-                        <div className="col">
-                            <input name="name" className="form-control" placeholder="Your Name" required />
+                        <div className="col-5">
+                            <div className="form-group">
+                                    <label htmlFor="contactName" className="text-color-bright">Your Name</label>
+                                    <input name="name" className="form-control mt-1" id="contactName" placeholder="Your Name" required />
+                            </div>
                         </div>
                         <div className="col">
-                            <input name="email" type="email" className="form-control" placeholder="you@example.com" required />
+                            <div className="form-group">
+                                    <label htmlFor="contactEmail" className="text-color-bright">Email Address</label>
+                                    <input name="email" type="email" className="form-control my-1" id="contactEmail" placeholder="you@example.com" required />
+                                    
+                            </div>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col">
-                            <textarea name="message" className="form-control" rows={5} placeholder="How can I help?" required/>
+                            <div className="form-group">
+                                 <label htmlFor="contactMessage" className="text-color-bright">Message</label>
+                                 <textarea name="message" id="contactMessage" className="form-control mt-1 no-resize" rows={5} placeholder="How can I help?" required/>
+                            </div>
+                           
                         </div>
                     </div>
                     <div className="row">
                         <div className="col">
-                            <button className="btn btn-info w-100" disabled={status==="sending"}>{status==="sending" ? "Sending..." : "Send Message"}</button>
+                            <button className="btn btn-outline-info w-100 highlight-btn" disabled={status==="sending"}>{status==="sending" ? "Sending..." : "Send Message"}</button>
                         </div>
                     </div>
 

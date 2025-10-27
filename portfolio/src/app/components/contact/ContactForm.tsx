@@ -21,7 +21,7 @@ export default function ContactForm() {
     return (
         <div className="row mx-3 mx-md-0">
             <div className="col-md-9 offset-md-1">
-                <form onSubmit={onSubmit} className="vstack gap-3 mx-2 mx-md-0">
+                <form onSubmit={onSubmit} className="vstack gap-3 mx-2 me-4  mx-md-0">
                     <div className="row">
                         <div className="col-5">
                             <div className="form-group">

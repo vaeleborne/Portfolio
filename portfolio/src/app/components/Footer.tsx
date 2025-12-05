@@ -10,7 +10,7 @@ const Foot: React.FC = () => {
           <div className="row">
             <div className="col-1 d-flex justify-sm-content-start">
               <a
-                href="https://www.linkedin.com/in/dylan-morgan-a6535817b/"
+                href="https://www.linkedin.com/in/dylan-hawke-a6535817b/"
                 rel="noopener noreferrer"
                 target="_blank"
                 className="sociallink me-2"

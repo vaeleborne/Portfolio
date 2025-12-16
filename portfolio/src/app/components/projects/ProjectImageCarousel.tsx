@@ -1,6 +1,6 @@
 
 export const runtime = "nodejs";
-import { getProjectImages } from "@/app/lib/GetProjectImages";
+import { getProjectImages } from "@/lib/GetProjectImages";
 import { CarouselClient } from "./CarouselClient";
 
 interface ProjectImageCarouselProps {

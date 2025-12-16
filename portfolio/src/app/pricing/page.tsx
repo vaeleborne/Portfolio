@@ -1,6 +1,5 @@
 "use client";
 import "../../../styles/app.css";
-import pricingData from "../data/pricing.json";
 import PricingSection from "../components/pricing/Pricing";
 
 export default function PricingPage() {

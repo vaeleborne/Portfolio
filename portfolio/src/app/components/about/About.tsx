@@ -1,6 +1,4 @@
 // app/page.tsx
-"use client";
-
 import React from "react";
 import AboutHeader from "./AboutHeading";
 import GrowingPassion from "./GrowingPassion";
@@ -8,7 +6,7 @@ import AboutImageBreak from "./AboutImageBreak";
 import CollegeYears from "./CollegeYears";
 import Reflection from "./Reflection";
 
-const About: React.FC = () => {
+export default function About() {
   return (
     <div className="row  mx-3 mx-md-0">
       <div className="col-md-9 offset-md-1">
@@ -26,6 +24,4 @@ const About: React.FC = () => {
       </div>
     </div>
   );
-};
-
-export default About;
+}

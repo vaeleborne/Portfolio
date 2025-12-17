@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "3.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -26,9 +26,9 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.2.3",
-    "typescript": "5.9.2"
+    "typescript": "5.9.3"
   },
   "engines": {
-    "node": "18.x"
+    "node": ">=20"
   }
 }

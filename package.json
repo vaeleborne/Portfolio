@@ -1,8 +1,17 @@
 {
   "dependencies": {
+    "better-sqlite3": "^12.5.0",
     "eslint-config-next": "^16.0.7",
     "next": "^16.0.7",
     "react": "^19.2.1",
     "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13"
+  },
+    "scripts": {
+    "db:seed": "node scripts/seed-db.mjs",
+    "db:reset": "rm -f db/portfolio.sqlite && node scripts/seed-db.mjs",
+    "db:migrate": "node portfolio/scripts/migrate-db.mjs"
   }
 }

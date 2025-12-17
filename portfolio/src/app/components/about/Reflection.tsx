@@ -1,9 +1,7 @@
 // app/page.tsx
-"use client";
-
 import React from "react";
 
-const Reflection: React.FC = () => {
+export default function Reflection() {
   return (
     <>
       <div className="row">
@@ -25,6 +23,4 @@ const Reflection: React.FC = () => {
       </div>
     </>
   );
-};
-
-export default Reflection;
+}

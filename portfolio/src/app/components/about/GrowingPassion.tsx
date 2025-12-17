@@ -1,17 +1,14 @@
 // app/page.tsx
-"use client";
-
 import React from "react";
 
-const GrowingPassion: React.FC = () => {
+export default function GrowingPassion(){
   return (
     <>
       <div className="row">
         <div className="col px-0">
           <h5 className="text-color-bright">Adding Fuel To My Passion</h5>
           <p>
-            That was the start of one of my greatest passions in life: programming. At first, I built 
-            small console-based applications to help with my homework. However, I quickly wanted to learn more.
+            At first, I built small console-based applications to help with my homework. However, I quickly wanted to learn more.
             I explored various graphics libraries and dabbled in Allegro before settling on
             <span className="text-color-bright"> SFML</span> for its clean design and simple, yet expansive, functionality.
           </p>
@@ -26,6 +23,4 @@ const GrowingPassion: React.FC = () => {
       </div>
     </>
   );
-};
-
-export default GrowingPassion;
+}

@@ -93,6 +93,8 @@ body {
   text-decoration: none;
 }
 
+
+
 .carousel-item img {
   height: 400px;
   width: 100%;
@@ -105,6 +107,11 @@ body {
     object-fit: contain;
     background-color: var(--letter-box);
   }
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: inherit; /* This makes the link color the same as its parent element's text color */
+  text-decoration: none;/* This removes the default underline */
 }
 
 

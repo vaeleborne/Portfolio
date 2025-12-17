@@ -1,13 +1,24 @@
 import fs, { read } from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import Database from "better-sqlite3";
 
-const ROOT = process.cwd();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const ROOT = path.resolve(__dirname, "..");
+
+const dbDir = path.join(ROOT, "db");
 const dbPath = path.join(ROOT, "db", "portfolio.sqlite");
 const schemaPath = path.join(ROOT, "db", "schema.sql");
 
 const pricingPath = path.join(ROOT, "data", "pricing.json");
 const projectsPath = path.join(ROOT, "data", "projects.json");
+
+
+
+//Ensure db directory exists BEFORE opening sqlite
+fs.mkdirSync(dbDir, { recursive: true });
 
 const db = new Database(dbPath);
 db.pragma("foreign_keys = ON");

@@ -1,9 +1,17 @@
-"use client";
+//src/app/pricing/page.tsx
+import { getPricing } from "../../lib/queries/pricing";
 import "../../../styles/app.css";
-import pricingData from "../data/pricing.json";
 import PricingSection from "../components/pricing/Pricing";
 
+
 export default function PricingPage() {
+  const categories = getPricing();
+
+  const web = categories.find((c) => c.slug === "web")?.packages ?? [];
+  const app = categories.find((c) => c.slug === "app")?.packages ?? [];
+  const other = categories.find((c) => c.slug === "other")?.packages ?? [];
+
+
   return (
     <div className="container mt-5 pt-5 ">
       <h4 className="text-color-bright mb-4 mx-3 mx-md-0">
@@ -23,19 +31,20 @@ export default function PricingPage() {
         considering me as your partner in this journey!
       </p>
 
-      <PricingSection
-        title="Web Development Packages"
-        packages={pricingData.web}
-        id="web-dev"
+      <PricingSection 
+      title="Web Development Packages" 
+      packages={web} 
+      id="web-dev"
       />
+      
       <PricingSection
         title="Mobile App Development Packages"
-        packages={pricingData.app}
+        packages={app}
         id="mobile-dev"
       />
       <PricingSection
         title="Other Services & Hourly Work"
-        packages={pricingData.other}
+        packages={other}
         id="other-services"
       />
     </div>

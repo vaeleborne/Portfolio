@@ -1,10 +1,8 @@
 // app/page.tsx
-"use client";
-
 import React from "react";
 import Image from "next/image";
 
-const AboutImageBreak: React.FC = () => {
+export default function AboutImageBreak() {
   return (
     <>
       <div className="row">
@@ -22,6 +20,4 @@ const AboutImageBreak: React.FC = () => {
       </div>
     </>
   );
-};
-
-export default AboutImageBreak;
+}

@@ -1,32 +1,25 @@
 // app/page.tsx
-"use client";
-
 import React from "react";
 
-const AboutHeader: React.FC = () => {
+export default function AboutHeader() {
   return (
-    <>
-      {/* <div className="col-lg-2 px-0">
-        <p className="text-color-bright">Sic Parvis Magna:</p>
-      </div> */}
       <div className="col px-0">
-        <h4 className="text-color-bright">Sic Parvis Magna – "Greatness From Small Beginnings"  </h4>
+        <h4 className="text-color-bright">Sic Parvis Magna </h4>
+        <p className="faded mb-3">"Greatness From Small Beginnings"</p>
         <hr />
         <h5 className="text-color-bright">My Start</h5>
         <p>
           Hello! My name is <strong className="text-color-bright">Dylan</strong>{" "}
-          and I have always loved tackling creative and technical challenges, especially 
-          when problem solving is involved.
+          and I have always loved creative and technical challenges. From a young age I was fascinated by how things worked, 
+          and I found joy in taking things apart and putting them back together. Some of my favorite childhood memories are those
+          of using a snap-circuit kit to build simple electronic devices. Followed closely by building various mechnaical contraptions 
+          with an Erector set. As I grew older, and my passion for video games grew, I became increasingly curious about how games were made.
         </p>
         <p>
-          My interest in programming began in the 8th grade. That summer, I set out to learn what is involved
-          in making a game. In doing so I discovered C++ tutorials. This led me to spending countless nights 
-          coding, often until 2am. I loved every second of it, even if I was exhausted in the morning before school.
+          This is where my passion for programming began. I had to find out what was involved in making games, I found some C++ tutorials, 
+          and ended up spending countless nights coding. Sometimes until 2 AM! Even though I was just a beginner, I was hooked. 
         </p>
         <hr />
       </div>
-    </>
   );
-};
-
-export default AboutHeader;
+}

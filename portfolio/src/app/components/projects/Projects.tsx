@@ -3,9 +3,22 @@
 
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import projects from "@/app/data/projects.json";
+export interface Project {
+  id: number;
+  title: string;
+  description: string;
+  technologies: string[];
+  github?: string | null;
+  imageDir: string;
+  appStore?: string | null;
+}
 
-const Projects: React.FC = () => {
+interface ProjectsProps {
+  projects: Project[];
+}
+
+const Projects: React.FC<ProjectsProps> = ({projects}) => {
+
   return (
     <>
       <div className="container">

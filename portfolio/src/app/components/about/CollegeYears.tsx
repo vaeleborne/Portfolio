@@ -1,9 +1,7 @@
 // app/page.tsx
-"use client";
-
 import React from "react";
 
-const CollegeYears: React.FC = () => {
+export default function CollegeYears() {
   return (
     <>
       <div className="row">
@@ -33,6 +31,5 @@ const CollegeYears: React.FC = () => {
       </div>
     </>
   );
-};
+}
 
-export default CollegeYears;

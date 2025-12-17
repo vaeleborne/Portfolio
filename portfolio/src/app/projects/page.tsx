@@ -1,5 +1,7 @@
+//src/app/projects/page.tsx
 import "../../../styles/app.css";
 import Projects from "../components/projects/Projects";
+import { getProjects } from "../../lib/queries/projects";
 
 export const metadata = {
   title: "Projects - Dylan Hawke",
@@ -8,5 +10,6 @@ export const metadata = {
 };
 
 export default function ProjectsPage() {
-  return <Projects />;
+  const projects = getProjects();
+  return <Projects projects={projects}/>;
 }

@@ -26,7 +26,25 @@
     "imageDir": "/projects/OracleAirlineBooking",
     "appStore": null
   
-    },
+  },
+  {
+    "title": "Repair Shop SaaS (Architecture & Data Model)",
+    "description": "A **multi-tenant repair shop SaaS concept** focused on realistic workflows and enterprise-grade data modeling. This repository is a **portfolio/architecture showcase** designed from real technician experience.\n\n**What it covers:**\n- Multi-tenant + multi-location foundation, subscription concepts, and **RBAC**\n- Customer/device intake, repair ticket lifecycle, notes/attachments, and auditability\n- Inventory + purchasing + vendor workflows (stock, POs, transfers, compatibility)\n- Sales/invoicing/payments concepts, tax handling, and store credit\n- A schema philosophy built around **3NF**, junction tables, and immutable history for audits\n\n> **Note:** documentation + ERDs only; implementation intentionally excluded to protect IP.",
+    "technologies": [
+      "System Design",
+      "Domain-Driven Design",
+      "Multi-Tenancy",
+      "RBAC",
+      "Database Modeling",
+      "3NF",
+      "ERD",
+      "PostgreSQL (Concept)",
+      "Oracle (Concept)"
+    ],
+    "github": "https://github.com/vaeleborne/RepairShopSaasPortfolio",
+    "imageDir": "/projects/RepairShopSaaS",
+    "appStore": null
+  },
   {
     "title": "Chess++",
     "description": "This is one of two of my most current projects. I set out with a desire to practice **AGILE** methodology along with **MSTEST** for **C++**. I wanted to work on an extendible game that could utilize numerous design patterns and fit iterative development well. Chess was what came to mind. The MVP will be a two player game. Eventually there will be options to play against an easy AI, then a medium difficulty, then a hard. Each implementing different algorithms for how they will play. I also wanted to explore some of the specific features added in C++20 so I have set that as the standard.",

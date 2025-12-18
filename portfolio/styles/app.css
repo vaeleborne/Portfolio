@@ -150,6 +150,7 @@ a:link, a:visited, a:hover, a:active {
   margin-top: 1.5rem;
   background-color: var(--bg-main);
   padding: 0.5rem;
+  padding-right: 1em;
   padding-bottom: 1.25rem; 
   outline: 0.2rem inset var(--color-bright);
 

@@ -7,6 +7,27 @@
     "appStore": "https://apps.apple.com/us/app/shelf-of-games/id6746895480"
   },
   {
+    "title": "Oracle-Based Airline Booking System (Booking API)",
+    "description": "A full-stack **Oracle 21c XE + ASP.NET Core Web API** project modeling a realistic airline booking domain: airports, gates, flights, passengers, pricing, and bookings.\n\nHighlights:\n- **Relational schema** with constraints, foreign keys, and indexes\n- **PL/SQL** procedures/functions + a **vw_booking_details** view to simplify complex joins\n- **Repository-pattern** data access layer using Oracle Managed Data Access\n- **Swagger + Postman** collection for testing and demo\n- **Bash setup scripts** to create and seed the database\n\nBuilt as a course presentation project with an emphasis on clean architecture, transaction-aware data access, and database-driven business logic.",
+    "technologies": [
+        "Oracle 21c XE",
+        "PL/SQL",
+        "SQL",
+        ".NET 9",
+        "C#",
+        "ASP.NET Core Web API",
+        "Oracle Managed Data Access",
+        "Repository Pattern",
+        "Swagger",
+        "Postman",
+        "Bash"
+    ],
+    "github": "https://github.com/vaeleborne/OracleDbPresentationProject",
+    "imageDir": "/projects/OracleAirlineBooking",
+    "appStore": null
+  
+    },
+  {
     "title": "Chess++",
     "description": "This is one of two of my most current projects. I set out with a desire to practice **AGILE** methodology along with **MSTEST** for **C++**. I wanted to work on an extendible game that could utilize numerous design patterns and fit iterative development well. Chess was what came to mind. The MVP will be a two player game. Eventually there will be options to play against an easy AI, then a medium difficulty, then a hard. Each implementing different algorithms for how they will play. I also wanted to explore some of the specific features added in C++20 so I have set that as the standard.",
     "technologies": ["C++ 20", "DevOps", "AGILE", "Software Design Patterns", "Visual Studio"],

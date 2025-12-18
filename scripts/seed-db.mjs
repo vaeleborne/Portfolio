@@ -18,7 +18,10 @@ const projectsPath = path.join(ROOT, "data", "projects.json");
 
 
 //Ensure db directory exists BEFORE opening sqlite
-fs.mkdirSync(dbDir, { recursive: true });
+if(!fs.existsSync(dbDir)) {
+    fs.mkdirSync(dbDir, { recursive: true });
+}
+
 
 const db = new Database(dbPath);
 db.pragma("foreign_keys = ON");

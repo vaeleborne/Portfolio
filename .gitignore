@@ -3,3 +3,4 @@ node_modules
 *.sqlite
 db/portfolio.sqlite-wal
 db/portfolio.sqlite-shm
+local_build_script.sh

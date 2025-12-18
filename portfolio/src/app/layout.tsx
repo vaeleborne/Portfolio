@@ -36,6 +36,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
+      
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased d-flex flex-column vh-100`}
       >
